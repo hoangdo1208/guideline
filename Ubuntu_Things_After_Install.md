@@ -91,7 +91,15 @@ You should also setup IDE such as: VS Code, Eclipse, etc
 
 ## 8. Steam
 
-### 8.1 Enable the Multiverse Repository
+### 8.1 Enable 32-bit Architecture (Multiarch)
+
+Since Steam requires 32-bit libraries to run, you must explicitly tell your 64-bit Ubuntu system to allow them:
+
+```bash
+sudo dpkg --add-architecture i386
+```
+
+### 8.2 Enable the Multiverse Repository
 
 Setup Steam Ubuntu's "multiverse" repository
 
@@ -100,7 +108,7 @@ sudo add-apt-repository multiverse
 sudo apt-get update
 ```
 
-### 8.2 Install Steam
+### 8.3 Install Steam
 
 Use the package manager to install Steam
 
