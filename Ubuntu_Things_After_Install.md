@@ -123,7 +123,7 @@ To install the full LibreOffice productivity suite on Debian, Ubuntu, or any oth
 sudo apt-get install libreoffice
 ```
 
-### 9.2 
+### 9.2 Unikey
 Unikey is the most popular Vietnamese keyboard. You can install it with this command:
 ```bash
 sudo apt-get install ibus-unikey
@@ -131,7 +131,7 @@ ibus restart
 ```
 Go to Settings -> Keyboard click to button "Add Input Sourc" in the Input Sources session.
 
-### 9.3
+### 9.3 Thunderbird Email
 To install Thunderbird on Ubuntu, run the command below
 ```bash
 sudo apt-get install thunderbird
