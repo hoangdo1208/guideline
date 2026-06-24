@@ -131,6 +131,12 @@ ibus restart
 ```
 Go to Settings -> Keyboard click to button "Add Input Sourc" in the Input Sources session.
 
+### 9.3
+To install Thunderbird on Ubuntu, run the command below
+```bash
+sudo apt-get install thunderbird
+```
+
 ## 10. VS Code
 Update your package index and install required dependencies:
 ```bash
