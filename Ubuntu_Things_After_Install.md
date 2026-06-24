@@ -115,3 +115,18 @@ Use the package manager to install Steam
 ```bash
 sudo apt-get install steam
 ```
+
+## 9. Office and Vietnamese keyboard
+### 9.1 Libre Office
+To install the full LibreOffice productivity suite on Debian, Ubuntu, or any other Debian-based Linux distribution, run the following commands sequentially in your terminal:
+```bash
+sudo apt-get install libreoffice
+```
+
+### 9.2 
+Unikey is the most popular Vietnamese keyboard. You can install it with this command:
+```bash
+sudo apt-get install ibus-unikey
+ibus restart
+```
+Go to Settings -> Keyboard click to button "Add Input Sourc" in the Input Sources session.
