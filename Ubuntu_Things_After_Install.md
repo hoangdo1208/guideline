@@ -130,3 +130,24 @@ sudo apt-get install ibus-unikey
 ibus restart
 ```
 Go to Settings -> Keyboard click to button "Add Input Sourc" in the Input Sources session.
+
+## 10. VS Code
+Update your package index and install required dependencies:
+```bash
+sudo apt update && sudo apt install -y wget gpg apt-transport-https
+```
+
+Download and import Microsoft's GPG key to verify package integrity:
+```bash
+curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft.gpg
+```
+
+Add the VS Code repository to your software sources list:
+```bash
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/code stable main" | sudo tee /etc/apt/sources.list.d/vscode.list
+```
+
+Install VS Code by updating your index one last time:
+```bash
+sudo apt update && sudo apt install code
+```
