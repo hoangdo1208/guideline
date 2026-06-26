@@ -123,10 +123,12 @@ To install the full LibreOffice productivity suite on Debian, Ubuntu, or any oth
 sudo apt-get install libreoffice
 ```
 
-### 9.2 Unikey
-Unikey is the most popular Vietnamese keyboard. You can install it with this command:
+### 9.2 Bamboo
+Bamboo is the most popular Vietnamese keyboard. You can install it with this command:
 ```bash
-sudo apt-get install ibus-unikey
+sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
+sudo apt-get update
+sudo apt-get install ibus ibus-bamboo
 ibus restart
 ```
 Go to Settings -> Keyboard click to button "Add Input Sourc" in the Input Sources session.
